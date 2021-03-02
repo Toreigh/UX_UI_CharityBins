@@ -1,3 +1,172 @@
-h1 {
-    color: blue;
+@font-face{
+    font-family: 'Montserrat', sans-serif;
+    font-family:'Hind Madurai', sans-serif;
+    
+
+  
 }
+
+@import url("./line.css");
+ 
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Hind Madurai', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+    --main-padding: 0 12vw;
+    --text: #282828;
+    --primary: #116056;
+    --p-light: #32A77F;
+    --accent:#F58C77;
+    --tertiary: #FFCE68;
+}
+
+@media only screen and (max-width: 560px) {
+    :root {
+       --main-padding: 0 1.5rem;
+   }
+}
+
+
+h1 {
+    font-size: 3.2rem;
+    line-height: 5.6rem;
+}
+
+h2 {
+    font-size: 1.9rem;
+    line-height: 4rem;
+    font-weight: 100;
+}
+
+h3 {
+    font-size: 1.37rem;
+    line-height: 2.4rem;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: .12rem;
+    line-height: 2rem;
+}
+
+p {
+    font-size: 1
+}
+
+.light {
+    font-weight: lighter;
+}
+
+/* Colour changes- (for changing colours mid-sentence) */
+.clr-primary {
+    color: var(--primary);
+    
+}
+
+.clr-p-light {
+    color: var(--p-light);
+}
+
+.clr-accent {
+    color: var(--accent);
+}
+
+.clr-tertiary {
+    color: var(--tertiary);
+}
+
+/* Background Colour variations */
+
+.fill-primary {
+    background-color: var(--primary);
+}
+
+.fill-p-light {
+    background-color: var(--p-light);
+}
+
+.fill-accent {
+    background-color: var(--accent);
+}
+
+.fill-tertiary {
+    background-color: var(--tertiary);
+}
+
+/* Pill-shape tag */
+
+.tag {
+    border-radius: 24px;
+    padding: 0 .72rem;
+}
+
+/* BUTTON SYSTEM */
+
+button {
+    height: 48px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+    padding: 0 1rem;
+    transition: 120ms;
+}
+
+button:hover {
+    transform: scale(1.06);
+}
+
+/* Button modifiers */
+
+.btn-primary {
+    background-color: var(--primary);
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: var(--p-light);
+}
+
+.btn-lg {
+    height: 72px;
+    padding: 0 1.5rem;
+}
+
+.btn-ln {
+    background-color: transparent;
+    color: var(--primary);
+    border: 1px solid var(--primary);
+}
+
+.btn-ln:hover {
+    background-color: var(--p-light);
+    color: white;
+    border-color: var(--p-light);
+}
+
+/* SHADOW ELEVATION */
+
+:root {
+    --ev-1: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+    --ev-2: 0px 1px 8px 0px rgba(0, 0, 0, 0.2), 0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 3px 3px -2px rgba(0, 0, 0, 0.12);
+    --ev-3: 0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+}
+
+/* NAVIGATION */
+
+.nav-link {
+    font-family:'Hind Madurai', sans-serif;
+    color:#282828;
+}
+
+.nav-link :hover {
+    color: #116056;
+    text-decoration: underline;
+}
+
