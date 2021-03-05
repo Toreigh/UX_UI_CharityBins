@@ -20,6 +20,8 @@
 :root {
     --main-padding: 0 12vw;
     --text: #282828;
+    --text-light: #828282;
+    --text-v-light: #e0e0e0;
     --primary: #116056;
     --p-light: #32A77F;
     --accent:#F58C77;
@@ -34,31 +36,54 @@
 
 
 h1 {
-    font-size: 3.2rem;
-    line-height: 5.6rem;
+    font-size: 3.75rem;
+    line-height: 3.75rem;
+    font-weight: 600;
 }
 
 h2 {
-    font-size: 1.9rem;
-    line-height: 4rem;
-    font-weight: 100;
+    font-size: 2.25rem;
+    line-height: 2rem;
+    font-weight: 700;
+    /* letter-spacing: px; */
 }
 
 h3 {
-    font-size: 1.37rem;
-    line-height: 2.4rem;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
     font-weight: 600;
 }
 
 h4 {
-    font-size: 1.5rem;
-    font-weight: 500;
-    letter-spacing: .12rem;
-    line-height: 2rem;
+    font-size: 1.87rem;
+    font-weight: 300;
+    line-height: 2.87rem;
+}
+
+h5 {
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 1.87rem;
+    font-weight: 600;
+  line-height: 2.87rem;
+}
+
+h6 {
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 1.18rem;
+    font-weight: 600;
+    line-height: 1.5rem;
 }
 
 p {
-    font-size: 1
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 1.25rem;
+    color: var(--text);
+}
+
+.p2 {
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 1.56rem;
+    color: var(--text);
 }
 
 .light {
@@ -83,6 +108,14 @@ p {
     color: var(--tertiary);
 }
 
+.clr-text-light {
+    color: var(--text-light);
+}
+
+.clr-text-v-light {
+    color:var(--text-v-light);
+}
+
 /* Background Colour variations */
 
 .fill-primary {
@@ -101,10 +134,22 @@ p {
     background-color: var(--tertiary);
 }
 
+.fill-text {
+    background-color: var(--text);
+}
+
+.fill-text-light {
+    background-color: var(--text-light);
+}
+
+.fill-text-v-light { 
+    background-color: var(--text-v-light);
+}
+
 /* Pill-shape tag */
 
 .tag {
-    border-radius: 24px;
+    border-radius: 27px;
     padding: 0 .72rem;
 }
 
@@ -128,6 +173,8 @@ button:hover {
 .btn-primary {
     background-color: var(--primary);
     color: white;
+    border-radius: 12px;
+    text-align: center;
 }
 
 .btn-primary:hover {
@@ -151,6 +198,17 @@ button:hover {
     border-color: var(--p-light);
 }
 
+/* .btn-nav {
+    background-color: var(--primary);
+    color: white;
+    height: 48px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1.5rem;
+    padding: 1rem 1rem;
+    transition: 120ms;
+} */
+
 /* SHADOW ELEVATION */
 
 :root {
@@ -160,14 +218,81 @@ button:hover {
 }
 
 /* NAVIGATION */
+.nav {
+    /* min-height: 6.25rem; */
+}
 
 .nav-link {
-    font-family:'Hind Madurai', sans-serif;
+    font-family:'Hind Madurai', sans-erif;
     color:#282828;
+    font-size: 1.5rem;
+    
 }
-
+/* 
 .nav-link :hover {
     color: #116056;
-    text-decoration: underline;
+     */
+
+
+/* HOVER BOX */
+
+.hover-box {
+    padding: 1.5rem;
+    /* min-height: 410px; */
+    border-radius: 12px;
+    box-shadow: var(--ev-1);
+    transition: 300ms;
+    margin: 0 0 5% 0;
 }
 
+.hover-box:hover {
+    box-shadow: var(--ev-3);
+    transform: scale(1.006);
+}
+
+
+/* HERO SECTION */
+
+
+.border-bottom {
+    border-style: solid;
+    border-width: 5px;
+    border-color: var(--primary);
+    border-radius:5px;
+
+}
+/* COLOUR */
+.card-header {
+    min-height: 9rem;
+}
+
+.subheading {
+    border-bottom: 4px solid var(--tertiary); 
+    
+}
+
+.colour-box {
+    /* padding: 1.5rem; */
+    /* min-height: 410px; */
+    border-radius: 12px;
+    box-shadow: var(--ev-1);
+    transition: 300ms;
+    margin: 0 0 5% 0;
+}
+
+.colour-box:hover {
+    box-shadow: var(--ev-3);
+    transform: scale(1.006);
+}
+
+.card-header {
+border-radius: 12px 12px 0 0;
+}
+
+.fill-accent-variation {
+        opacity: 0.12;
+}
+
+.fill-primary-variation {
+    opacity: 0.4;
+}
