@@ -1,9 +1,7 @@
 @font-face{
     font-family: 'Montserrat', sans-serif;
     font-family:'Hind Madurai', sans-serif;
-    
-
-  
+     
 }
 
 @import url("./line.css");
@@ -302,6 +300,10 @@ button:hover {
 
 /* HERO SECTION */
 
+.icon {
+    max-height: 3.875rem;
+    max-width: 3.875rem;
+}
 
 .border-bottom {
     border-style: solid;

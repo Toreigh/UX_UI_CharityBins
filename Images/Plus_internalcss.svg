@@ -1,0 +1,35 @@
+<svg id="Plus" xmlns="http://www.w3.org/2000/svg" width="62" height="62" viewBox="0 0 62 62">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke-width: 4px;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #282828;
+      }
+
+      .cls-2, .cls-4 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke-linecap: round;
+        stroke-width: 6px;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Ellipse_54" data-name="Ellipse 54" class="cls-1">
+    <circle class="cls-3" cx="31" cy="31" r="31"/>
+    <circle class="cls-4" cx="31" cy="31" r="29"/>
+  </g>
+  <g id="plus_minus" transform="translate(18 18)">
+    <line id="v_line" class="cls-2" x1="0.148" y2="26.832" transform="translate(13.135)"/>
+    <line id="h_line" class="cls-2" x1="26.832" transform="translate(0 13.66)"/>
+  </g>
+</svg>

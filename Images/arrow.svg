@@ -1,0 +1,32 @@
+<svg id="search" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #116056;
+        stroke: #116056;
+      }
+
+      .cls-2, .cls-4 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #fff;
+        stroke-linecap: round;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="circle" class="cls-1">
+    <circle class="cls-3" cx="12" cy="12" r="12"/>
+    <circle class="cls-4" cx="12" cy="12" r="11.5"/>
+  </g>
+  <g id="arrow" transform="translate(-548.394 -2017.5)">
+    <line id="bottom_line" class="cls-2" x2="3.34" y2="3" transform="translate(565.061 2028.5) rotate(180)"/>
+    <line id="middle_line" class="cls-2" x2="8.18" transform="translate(564.574 2028.795) rotate(180)"/>
+    <line id="top_line" class="cls-2" x1="3.866" y2="4.098" transform="translate(565.061 2032.892) rotate(180)"/>
+  </g>
+</svg>
