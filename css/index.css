@@ -276,6 +276,15 @@ button:hover {
     font-size: 1.5rem;
     
 }
+
+.image {
+    background-size: cover;
+    border-radius: .8rem;
+    max-height: 829px;
+    max-width:482px;
+    
+    
+}
 /* 
 .nav-link :hover {
     color: #116056;
